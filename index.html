@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Diet Pepe</title>
+    <title>Diet Pepe - MORE PEPE LESS ETH GAS</title>
     <style>
         body, html {
             height: 100%;
             margin: 0;
             padding: 0;
             display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
         }
@@ -24,11 +25,28 @@
             z-index: -1;
         }
         .bullet-points {
-            text-align: left;
+            text-align: center;
             color: white;
             background-color: rgba(0,0,0,0.5);
             padding: 20px;
             border-radius: 10px;
+        }
+        .bullet-points ul {
+            list-style: none;
+        }
+        .icons {
+            position: absolute;
+            bottom: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .icons a {
+            display: inline-block;
+        }
+        .icons img {
+            height: 50px;
+            width: 50px;
         }
     </style>
 </head>
@@ -41,7 +59,16 @@
             <li>✅No Taxes</li>
             <li>✅No Max Wallet</li>
             <li>✅No high ETH gas</li>
+            <li>✅LIQUIDITY IS LOCKED</li>
         </ul>
+    </div>
+    <div class="icons">
+        <a href="https://app.camelot.exchange/?token2=0x1622c592927d2eb7dd3f5891d4e3f10ba08eeb13" target="_blank">
+            <img src="buy-icon.png" alt="Buy">
+        </a>
+        <a href="https://t.me/DietPepe" target="_blank">
+            <img src="telegram-icon.png" alt="Telegram">
+        </a>
     </div>
     <audio controls autoplay hidden>
         <source src="pepesong.mp3" type="audio/mp3">
