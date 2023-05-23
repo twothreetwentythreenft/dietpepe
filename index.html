@@ -1,139 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Diet Pepe - MORE PEPE LESS ETH GAS</title>
-    <link rel="icon" href="pepecan.png" type="image/png">
-    <style>
-        body, html {
-            height: 100%;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
-        .bg {
-            position: absolute;
-            top: 0;
-            left: 0;
-            background-image: url('dietpepe.jpeg');
-            height: 100%;
-            width: 100%;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            z-index: -1;
-        }
-        .bullet-points {
-            text-align: left;
-            color: white;
-            background-color: rgba(0,0,0,0.5);
-            padding: 20px;
-            border-radius: 10px;
-        }
-        .bullet-points ul {
-            list-style: none;
-        }
-        .bullet-points ul li {
-    font-size: 30px;
-        }
-         .text {
-            text-align: center;
-            color: white;
-            font-size: 20px;
-            padding: 10px;
-        }
-        .icons {
-            position: absolute;
-            top: 10px;
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-        }
-        .icons a {
-            display: inline-block;
-        }
-        .icons img {
-            height: 170px;
-            width: 170px;
-        }
-        .outlined-icon {
-            border: 10px solid black;
-        }
-         #moving-image {
-            position: fixed;
-            width: 100px;
-            height: 100px;
-        }
-    </style>
-     <script>
-        window.onload = function() {
-            var img = document.getElementById('moving-image');
-            var speed = 2;
-            var dx = speed;
-            var dy = speed;
+  <title>Black Background Website</title>
+  <style>
+    body {
+      background-color: black;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
 
-            function animate() {
-                var x = img.offsetLeft;
-                var y = img.offsetTop;
-                var width = img.offsetWidth;
-                var height = img.offsetHeight;
-
-                if (x + width + dx > window.innerWidth || x + dx < 0) {
-                    dx = -dx;
-                }
-
-                if (y + height + dy > window.innerHeight || y + dy < 0) {
-                    dy = -dy;
-                }
-
-                img.style.left = (x + dx) + 'px';
-                img.style.top = (y + dy) + 'px';
-
-                requestAnimationFrame(animate);
-            }
-
-            animate();
-        };
-    </script>
+    img {
+      max-width: 100%;
+      max-height: 100%;
+    }
+  </style>
 </head>
 <body>
-        <a href="https://site421820.nicepage.io/">
-        <img id="moving-image" src="pepecan.png">
-    </a>
-    <div class="bg"></div>
-    <div class="bullet-points">
-        <ul>
-            <li>✅Contract Renounced</li>
-            <li>✅Aggressive yet Inviting Marketing Plan</li>
-            <li>✅No Taxes</li>
-            <li>✅No Max Wallet</li>
-            <li>✅No high ETH gas</li>
-            <li>✅LIQUIDITY IS LOCKED</li>
-        </ul>
-    </div>
-        <div class="text">
-        Diet Pepe - we don't try hard, so you have to
-    </div>
-    <div class="icons">
-        <a href="https://app.camelot.exchange/?token2=0x1622c592927d2eb7dd3f5891d4e3f10ba08eeb13" target="_blank">
-            <img src="buy-icon.png" alt="Buy" class="outlined-icon">
-        </a>
-        <a href="https://t.me/DietPepe" target="_blank">
-            <img src="telegram-icon.png" alt="Telegram" class="outlined-icon">
-        </a>
-        <a href="https://twitter.com/dietpepecoin" target="_blank">
-            <img src="twitter-icon.png" alt="Twitter" class="outlined-icon">
-        </a>
-        <a href="https://dexscreener.com/arbitrum/0x1622c592927D2eB7DD3f5891D4e3f10BA08eeb13" target="_blank">
-            <img src="chart guy.png" alt="Chart" class="outlined-icon">
-        </a>
-        <a href="https://medium.com/@DietPepe" target="_blank">
-            <img src="medium.png" alt="Chart" class="outlined-icon">
-        </a>
-    </div>
-    <audio src="https://filebin.net/nfh9iipyqvxo7vme/caribbean.mp3" type="audio/mpeg" autoplay loop controls>
-    </audio>
+  <img src="dietpepemax.jpeg" alt="Diet Pepsi Max" />
 </body>
 </html>
