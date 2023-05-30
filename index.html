@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<html style="font-size: 16px;" lang="en"><head>
+<html style="font-size: 16px;" lang="en">
+
+<head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <meta name="keywords" content="">
@@ -33,6 +35,54 @@
     <meta property="og:title" content="Diet Pepe MAX">
     <meta property="og:description" content="">
     <meta property="og:type" content="website">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        #video-background {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            z-index: -1;
+            opacity: 1;
+            transition: opacity 1s ease-in-out;
+        }
+
+        #background-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #000;
+            z-index: -1;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+        }
+
+        .hide-video #video-background {
+            opacity: 0;
+        }
+
+        .hide-overlay #background-overlay {
+            opacity: 1;
+        }
+
+        #content {
+            position: relative;
+            z-index: 1;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
   </head>
   <body data-home-page="Diet-Pepe-MAX.html" data-home-page-title="Diet Pepe MAX" class="u-body u-gradient u-xl-mode" data-lang="en" style="background-image: linear-gradient(black, #404040);"><header class="u-clearfix u-header" id="sec-85f5"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
         <div class="u-hidden-lg u-hidden-xl u-hover-feature u-social-icons u-spacing-10 u-social-icons-1">
@@ -62,5 +112,24 @@
     
     
     <footer class="u-align-center u-clearfix u-footer" id="sec-f60d"><div class="u-clearfix u-sheet u-sheet-1"></div></footer>
-  
+      <video id="video-background" autoplay loop>
+        <source src="backer type="video/mp4">
+        <!-- Provide alternative formats for compatibility -->
+        <!-- <source src="your-video-file.webm" type="video/webm"> -->
+        <!-- <source src="your-video-file.ogg" type="video/ogg"> -->
+    </video>
+
+    <div id="background-overlay"></div>
+
+    <script>
+        var video = document.getElementById('video-background');
+        var overlay = document.getElementById('background-overlay');
+        var content = document.getElementById('content');
+
+        video.addEventListener('ended', function () {
+            video.classList.add('hide-video');
+            overlay.classList.add('hide-overlay');
+            content.style.zIndex = '2';
+        });
+    </script>
 </body></html>
