@@ -35,54 +35,46 @@
     <meta property="og:title" content="Diet Pepe MAX">
     <meta property="og:description" content="">
     <meta property="og:type" content="website">
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-        }
-
-        #video-background {
-            position: fixed;
-            top: 0;
-            left: 0;
-            min-width: 100%;
-            min-height: 100%;
-            width: auto;
-            height: auto;
-            z-index: -1;
-            opacity: 1;
-            transition: opacity 1s ease-in-out;
-        }
-
-        #background-overlay {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: #000;
-            z-index: -1;
-            opacity: 0;
-            transition: opacity 1s ease-in-out;
-        }
-
-        .hide-video #video-background {
-            opacity: 0;
-        }
-
-        .hide-overlay #background-overlay {
-            opacity: 1;
-        }
-
-        #content {
-            position: relative;
-            z-index: 1;
-            color: #fff;
-            text-align: center;
-            padding: 20px;
-        }
-    </style>
+      <style>
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: black;
+    }
+    #video-container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+    #video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .image-container {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .enter-button {
+      display: block;
+      width: 200px;
+      margin: 0 auto;
+      text-align: center;
+      padding: 20px 0;
+      background-color: white;
+      color: black;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 10px;
+    }
+  </style>
   </head>
   <body data-home-page="Diet-Pepe-MAX.html" data-home-page-title="Diet Pepe MAX" class="u-body u-gradient u-xl-mode" data-lang="en" style="background-image: linear-gradient(black, #404040);"><header class="u-clearfix u-header" id="sec-85f5"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
         <div class="u-hidden-lg u-hidden-xl u-hover-feature u-social-icons u-spacing-10 u-social-icons-1">
@@ -112,21 +104,22 @@
     
     
     <footer class="u-align-center u-clearfix u-footer" id="sec-f60d"><div class="u-clearfix u-sheet u-sheet-1"></div></footer>
-      <video id="video-background" autoplay>
-         <source src="backerlowres.mp4" type="video/mp4">
+  <div id="video-container">
+    <video id="video" autoplay muted>
+      <source src="backerlowres.mp4" type="video/mp4">
     </video>
+  </div>
 
-    <div id="background-overlay"></div>
+  <script>
+    var videoElement = document.getElementById("video");
+    var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
-<script>
-        var video = document.getElementById('video-background');
-        var overlay = document.getElementById('background-overlay');
-        var content = document.getElementById('content');
+    if (isMobile) {
+      videoElement.src = "lowresmobile.mp4";
+    }
 
-        video.addEventListener('ended', function () {
-            video.classList.add('hide-video');
-            overlay.classList.add('hide-overlay');
-            content.style.zIndex = '2';
-        });
-    </script>
+    videoElement.addEventListener("ended", function() {
+      videoElement.style.display = "none";
+    });
+  </script>
 </body></html>
