@@ -6,27 +6,38 @@
         body {
             margin: 0;
             padding: 0;
-            background-image: url("dietpepemax.jpg");
-            background-size: contain;
-            background-repeat: no-repeat;
-            background-position: center;
+            background-color: #000;
         }
 
         .container {
+            position: relative;
+            height: 100vh;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+        }
+
+        .background-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url("dietpepemax.jpg");
+            background-size: cover;
+            background-position: center;
+            opacity: 0.5;
         }
 
         .btn-enter {
-            display: inline-block;
-            padding: 0;
-            background: url("enter.png") no-repeat;
-            background-size: contain;
-            background-position: center;
+            display: block;
             width: 200px;
             height: 80px;
+            margin: 0 auto;
+            background-image: url("enter.png");
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
             text-indent: -9999px;
             border: none;
         }
@@ -34,7 +45,8 @@
 </head>
 <body>
     <div class="container">
-        <a class="btn-enter" href="landing.html">Enter</a>
+        <div class="background-image"></div>
+        <a class="btn-enter" href="your-page.html">Enter</a>
     </div>
 </body>
 </html>
