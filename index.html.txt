@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;" lang="en"><head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>Diet Pepe MAX</title>
+    <link rel="stylesheet" href="//capp.nicepage.com/f9d7a2f7810d062c50fcc90fef3bc1d2c9d90d83/nicepage.css" media="screen">
+<link rel="stylesheet" href="/nicepage-site.css" media="screen">
+<link rel="stylesheet" href="Diet-Pepe-MAX.css" media="screen">
+    <script class="u-script" type="text/javascript" src="//capp.nicepage.com/assets/jquery-3.5.1.min.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="//capp.nicepage.com/f9d7a2f7810d062c50fcc90fef3bc1d2c9d90d83/nicepage.js" defer=""></script>
+    <meta name="generator" content="Nicepage 5.10.10, nicepage.com">
+    <link rel="icon" href="favicon.png">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+    
+    
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "Diet Pepe Coin - $DPEPE on BSC",
+		"sameAs": [
+				"https://dietpepe.com",
+				"https://t.me/dietpepemaxportal",
+				"https://twitter.com/dietpepecoin"
+		]
+}</script>
+    <meta name="theme-color" content="#478ac9">
+    <meta name="twitter:site" content="@">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Diet Pepe MAX">
+    <meta name="twitter:description" content="Diet Pepe Coin - $DPEPE on BSC">
+    <meta property="og:title" content="Diet Pepe MAX">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+  </head>
+  <body data-home-page="Diet-Pepe-MAX.html" data-home-page-title="Diet Pepe MAX" class="u-body u-gradient u-xl-mode" data-lang="en" style="background-image: linear-gradient(black, #404040);"><header class="u-clearfix u-header" id="sec-85f5"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <div class="u-hidden-lg u-hidden-xl u-hover-feature u-social-icons u-spacing-10 u-social-icons-1">
+          <a class="u-social-url" title="Buy" target="_blank" href="https://dietpepe.com"><span class="u-file-icon u-icon u-social-facebook u-social-icon u-text-custom-color-1 u-icon-1"><img src="buyme.png" alt=""></span>
+          </a>
+          <a class="u-social-url" title="Telegram" target="_blank" href="https://t.me/dietpepemaxportal"><span class="u-file-icon u-icon u-social-icon u-social-instagram u-text-custom-color-1 u-icon-2"><img src="tg.png" alt=""></span>
+          </a>
+          <a class="u-social-url" title="twitter" target="_blank" href="https://twitter.com/dietpepecoin"><span class="u-file-icon u-icon u-social-icon u-social-twitter u-text-custom-color-1 u-icon-3"><img src="twitter.png" alt=""></span>
+          </a>
+        </div>
+      </div></header>
+    <section class="u-clearfix u-section-1" id="sec-3b87">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <img class="u-expanded-width-xs u-image u-image-contain u-image-default u-image-1" src="nutrition.png" alt="" data-image-width="1063" data-image-height="1600">
+        <div class="u-hidden-md u-hidden-sm u-hidden-xs u-hover-feature u-social-icons u-spacing-10 u-social-icons-1">
+          <a class="u-social-url" title="Buy" target="_blank" href="https://dietpepe.com"><span class="u-file-icon u-icon u-social-facebook u-social-icon u-text-custom-color-1 u-icon-1"><img src="buyme.png" alt=""></span>
+          </a>
+          <a class="u-social-url" title="Telegram" target="_blank" href="https://t.me/dietpepemaxportal"><span class="u-file-icon u-icon u-social-icon u-social-instagram u-text-custom-color-1 u-icon-2"><img src="tg.png" alt=""></span>
+          </a>
+          <a class="u-social-url" title="Twitter" target="_blank" href="https://twitter.com/dietpepecoin"><span class="u-file-icon u-icon u-social-icon u-social-twitter u-text-custom-color-1 u-icon-3"><img src="twitter.png" alt=""></span>
+          </a>
+        </div>
+        <img class="u-expanded-width-xs u-image u-image-contain u-image-default u-image-2" src="IMG_9906.PNG" alt="" data-image-width="1080" data-image-height="1080">
+      </div>
+      
+    </section>
+    
+    
+    <footer class="u-align-center u-clearfix u-footer" id="sec-f60d"><div class="u-clearfix u-sheet u-sheet-1"></div></footer>
+  
+</body></html>
